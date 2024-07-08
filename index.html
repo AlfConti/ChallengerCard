@@ -3,24 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pop-ups "CARD"</title>
+    <title>Pop-us Card 2</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="conteiner">
+    <main class="contenedor">
       <div class="card">
-        <img src="./Pop-ups-01/Saly-27.png" alt="1 card" />
-        <p>
-          Utilizamos cookies para mejorar la experiencia del usuario, la
-          analitica y el marketing
-        </p>
-        <button class="boton-card-1">¡Eso está bien!</button>
+        <button class="cierre" onclick="window.close()">x</button>
+        <h2>¿Cómo te sentiste con el soporte de Alfonso?</h2>
+
+        <div class="puntaje">
+          <input
+            type="button"
+            value="1"
+            name="calificacion"
+            id="calificacion"
+            class="numero"
+          />
+          <input
+            type="button"
+            value="2"
+            name="calificacion"
+            id="calificacion"
+            class="numero"
+          />
+          <input
+            type="button"
+            value="3"
+            name="calificacion"
+            id="calificacion"
+            class="numero"
+          />
+          <input
+            type="button"
+            value="4"
+            name="calificacion"
+            id="calificacion"
+            class="numero"
+          />
+          <input
+            type="button"
+            value="5"
+            name="calificacion"
+            id="calificacion"
+            class="numero"
+          />
+        </div>
+
+        <div class="opinion">
+          <p class="negativa">Bastante <br />insastisfecho</p>
+          <p class="positiva">Extremadamente <br />satisfecho</p>
+        </div>
+
+        <div class="terminos">
+          <input type="checkbox" class="check" name="check" id="check" />
+          <label for="texto">Acepto los términos y usos</label>
+        </div>
+        <div class="linea"></div>
+        <button class="siguiente">siguiente ➡️</button>
       </div>
-      <div class="card">
-        <img src="./Pop-ups-01/Frame.png" alt="1 card" />
-        <p>¡Se cerrará la sesión inmediatamente!</p>
-        <button class="boton-card-2">Ampliar sesión</button>
-      </div>
-    </div>
+    </main>
   </body>
 </html>
